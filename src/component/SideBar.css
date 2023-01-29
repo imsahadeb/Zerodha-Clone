@@ -1,0 +1,181 @@
+#sideBar{
+ 
+    flex: .3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+   
+  
+}
+.scrollItems{
+    overflow-y: scroll;
+   
+    height: 100vh;
+    
+}
+.searchBar{
+    width: 95%;
+    border: 1px rgba(56, 53, 53,.5) solid;
+
+}
+
+.topGap{
+    min-height: 65px;
+}
+
+.search{
+    width: 95%;
+    height: 45px;
+    border-radius: 6px;
+    outline: none;
+   border: none;
+    color: wheat;
+
+
+}
+
+.listItem{
+    width: 100%;
+    min-height: 45px;
+    border-bottom: 1px rgba(56, 53, 53,.5) solid;
+    display: flex;
+    flex-direction: row;
+    font-size: .8rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 168, 47);
+
+
+}
+.listItem:hover{
+    cursor:move;
+    transition: ease-in-out .25s;
+    background-color: rgb(17, 15, 15);
+}
+.itemLeft{
+    margin-left: 15px;
+    flex: .2;
+    background-color: transparent;
+}
+.itemName,.search,.currentPrice,.upDownLogo,.dayChange,.red{
+    background-color: transparent;
+    display: flex;
+    min-width: fit-content;
+}
+.itemRight{
+    flex: .8;
+    justify-content: flex-end;
+    display: flex;
+    background-color: transparent;
+    margin-right: 10px;
+    align-items: center;
+
+    
+}
+
+.dayChange,.upDownLogo, .currentPrice{
+    margin: 0 5px;
+}
+
+
+.itemHidden{
+    display: flex;
+    position:relative;
+    right: -110px;
+    background-color:transparent;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+   
+    
+}
+
+.listItem:hover .itemHidden{
+    opacity: 1;
+    transition: ease-in-out .25s;
+    background-color:rgb(22, 20, 18);
+} 
+
+.btn{
+    background-color:rgb(246,70,26);
+    width: 40px;
+    height: 28px;
+    margin: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 400;
+    
+}
+.btn:nth-child(1){
+    background-color: rgb(65, 109, 252);
+}
+.btn:hover{
+    transition: ease-in-out .25s;
+    scale: 1.1;
+  
+}
+.icon{
+    height: 30px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+ 
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(17, 15, 15);
+   
+  
+}
+
+.icon:hover{
+    scale: 1.1;
+    transition: ease-in-out .2;
+    background-color: rgba(56, 53, 53,.5);
+}
+.red{
+    color: red;
+}
+
+
+.bottomGap{
+    min-height: 60px;
+    background-color: rgb(22, 20, 18);
+  
+    
+   
+}
+
+.bottomSticky{
+    min-height: 45px;
+    background-color: rgb(22, 20, 18);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.wList{
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.wList:hover{
+    transition: all ease-in-out .25s;
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgb(22, 20, 18);
+}

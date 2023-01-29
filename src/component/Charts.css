@@ -1,0 +1,22 @@
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top:  1px solid black;
+    margin-bottom: 5px;
+    
+}
+
+.time,.open, .close, .high, .low{
+    flex: .2;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 5px;
+    background-color: aquamarine;
+   
+}

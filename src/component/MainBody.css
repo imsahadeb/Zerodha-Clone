@@ -1,0 +1,22 @@
+
+
+#mainBody{  
+ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    overflow: hidden;
+}
+.top{
+    min-height: 60px;
+    background-color: blue;
+}
+
+
+
+.mainBody{  
+ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+}

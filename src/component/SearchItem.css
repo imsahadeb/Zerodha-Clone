@@ -1,0 +1,27 @@
+.search-item{
+    color: white;
+    min-height: 50px;
+    background-color: rgb(44, 48, 46);
+    margin-bottom: 5px;
+    align-items:center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.box{
+    height: 700px;
+    overflow-y: scroll;
+    width: 400px;
+}
+.ulist{
+    background-color:transparent;
+}
+.list{
+    color: white;
+    height: 70px;
+    background-color: rgb(61, 61, 65);
+    margin-bottom: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+   padding-left: 20px;
+}

@@ -1,0 +1,83 @@
+#navBar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #181818;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 1px 2px 30px -10px rgb(10, 0, 0);
+   position: fixed;
+   top: 0;
+
+}
+
+.leftNavBar {
+    flex: .3;
+
+    display: flex;
+    padding-left: 12px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.leftMargin {
+    margin-left: 10x;
+}
+
+
+.righMargin {
+    margin-right: 10x;
+}
+
+.vLine {
+    border-right: rgb(48, 46, 46) 1px dotted;
+    height: 60px;
+    margin-left: 10px;
+
+}
+
+.rightNavBar {
+    flex: .7;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+
+
+}
+
+
+.vLineR {
+    border-right: rgb(48, 46, 46) 1px dotted;
+    height: 40px;
+
+    margin-left: 10px;
+    margin-right: -10px;
+
+}
+
+.leftNavBar span {
+    font-size: .75rem;
+    letter-spacing: 0;
+    font-family: sans-serif;
+    margin-left: 8px;
+    font-weight: 400;
+
+}
+
+.rightBarItem {
+    margin-left: 3%;
+    font-size: .9rem;
+}
+
+.indexValue {
+    color: rgb(246,70,26);
+}
+
+
+.leftLogo img {
+    height: 60px;
+}
